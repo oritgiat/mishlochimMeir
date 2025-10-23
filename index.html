@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+  <title>רשימת כתובות</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h2>רשימת כתובות</h2>
+
+  <label>תעריף<input type="text" id="product"></label>
+  <label>כתובת<input type="number" id="price" min="0"></label>
+  <button onclick="addProduct()">Add Product</button>
+
+  <table id="table">
+    <thead>
+      <tr>
+        <th>כתובת</th>
+        <th>תעריף</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <p id="total">Total: </p>
+
+  <script src="script.js"></script>
+</body>
+</html>
